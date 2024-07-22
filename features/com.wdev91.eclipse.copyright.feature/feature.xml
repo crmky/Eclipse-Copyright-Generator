@@ -2,7 +2,7 @@
 <feature
       id="com.wdev91.eclipse.copyright.feature"
       label="%featureName"
-      version="1.5.3"
+      version="2.0.0"
       provider-name="%providerName">
 
    <description>
@@ -57,9 +57,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    <plugin
          id="com.wdev91.eclipse.copyright"
-         download-size="88"
-         install-size="88"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

@@ -14,9 +14,11 @@ bin/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# P2 Update Site project
-/com.wdev91.eclipse.copyright.site/features/
-/com.wdev91.eclipse.copyright.site/plugins/
-
 # Maven
 target/
+.polyglot*
+
+# Eclipse
+.project
+.classpath
+.settings/

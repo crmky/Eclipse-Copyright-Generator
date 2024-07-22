@@ -18,13 +18,9 @@ import org.eclipse.ui.dialogs.PatternFilter;
 
 public class CheckboxFilteredTree extends FilteredTree {
 
-  public CheckboxFilteredTree(Composite parent, boolean useNewLook) {
-    super(parent, useNewLook);
-  }
-
   public CheckboxFilteredTree(Composite parent, int treeStyle,
 		  PatternFilter filter, boolean useNewLook) {
-    super(parent, treeStyle, filter, useNewLook);
+    super(parent, treeStyle, filter, useNewLook, true);
   }
 
   @Override
