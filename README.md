@@ -1,8 +1,8 @@
 # Eclipse Copyright Generator
 
-This is an Eclipse extension to help generating / updating copyright.
+This is an Eclipse extension to help generating and updating copyright in files.
 
-## Description
+## History
 
 Fork of [Eclipse Copyright Generator project](https://github.com/jmini/Eclipse-Copyright-Generator) on Github, which is a fork of the [Eclipse Copyright Generator project](http://sourceforge.net/projects/eclipsecopyrigh/) on sourceforge.
 
@@ -24,5 +24,9 @@ Release build:
 mvn clean org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=2.0.0 verify
 ```
 
+## Install
 
+Refer to the original Github pages at https://jmini.github.io/Eclipse-Copyright-Generator/.
+
+Bintray is no longer available. This project will release the artifacts in Github releases instead.
 
